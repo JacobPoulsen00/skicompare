@@ -1,5 +1,5 @@
 {
-  "homepage": "https://jacobpoulsen00.github.io/skicompare/",
+  "homepage": "https://skicompare.netlify.app/",
   "name": "skicompare",
   "version": "0.1.0",
   "dependencies": {

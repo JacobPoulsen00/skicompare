@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rejser>
+	<rejse>
+		<rejse_id>1</rejse_id>
+		<destination id="val-thorens">Val Thorens</destination>
+		<afrejse>2020-05-12</afrejse>
+		<skidage>8</skidage>
+		<transport>Fly</transport>
+		<transport_fra>CPH</transport_fra>
+		<indkvartering id="hs100" pension="1/2" kun_transport="nej" url="http://www.hjemmeside.dk/frankrig/val-thorens/hotel-skisport/" video="https://www.youtube.com/watch?v=9WLOJUPgp1I">Hotel Skisport.dk</indkvartering>
+		<beskrivelse><![CDATA[Vores eget hotel i Val Thorens med all-inclusive 300 m fra liften. Alle værelser er med eget badeværelse og balkon.]]></beskrivelse>
+		<billeder>
+			<billede><![CDATA[http://www.hjemmeside.dk/frankrig/val-thorens/hotel-skisport/billede.jpg]]></billede>
+			<billede><![CDATA[http://www.hjemmeside.dk/frankrig/val-thorens/hotel-skisport/billede2.jpg]]></billede>
+			<billede><![CDATA[http://www.hjemmeside.dk/frankrig/val-thorens/hotel-skisport/billede3.jpg]]></billede>
+		</billeder>
+		<koordinater lat="" lon="" />
+		<vaerelse id="dblv2" antal_sovepladser="2"><![CDATA[Dobbeltværelse]]></vaerelse>
+		<pris pris_for_personer="1" pris_ved_personer="2" normal_pris="">2495</pris>
+		<liftkort>6</liftkort>
+		<liftkort_note />
+		<url><![CDATA[http://www.hjemmeside.dk/frankrig/val-thorens/hotel-skisport/?book]]></url>
+		<sidst_opdateret>åååå-mm-dd tt:mm:ss</sidst_opdateret>
+	</rejse>
+</rejser>

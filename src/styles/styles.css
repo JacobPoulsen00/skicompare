@@ -1,0 +1,240 @@
+/* General CSS */
+body {
+	margin: 0;
+	border: none;
+	font-family: 'Roboto', Poppins, sans-serif;
+	font-size: 20;
+	box-sizing: border-box;
+	height: 100%;
+	
+}
+
+h1, h2, h3   {
+	font-family: Poppins;
+}
+
+h4, h5, h6 {
+	font-weight: 500;
+	color: #4d4d4d;
+}
+
+h2 {
+	font-size: 36px;
+	margin-bottom: -10px;
+}
+
+/* unvisited link */
+a:link {
+	text-decoration: none;
+	color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+	text-decoration: none;
+	color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+	color: black;
+  }
+  
+  /* selected link */
+  a:active {
+	color: blue;
+  }
+
+
+
+
+
+/* Header section */
+	
+.container{
+	width: 100%;
+	height: 80px;
+
+	
+}
+
+.menu {
+	background-color: white;
+	height: 80px;
+}
+
+.menu ul {
+	display: inline-flex; 
+	margin: 30px 0; 
+	list-style: none;
+}
+
+.menu ul li a {
+	margin: auto 30px;
+	color: black;
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+.logo {
+	height: 55px;
+	margin: -17px 600px 0 50px;
+	margin-top: -17px;
+	
+}
+
+
+
+
+/* Body Scetion */
+.titlecard {
+	background-image: url(./images/titleCard.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.title-card-filter {
+	background-color: rgba(22, 44, 102, 0.37);
+}
+
+.titlecard-titel {
+	font-size: 40px;
+	color: white;
+	margin: 0px 200px;
+	padding: 200px 10px;
+	text-align: center;
+}
+
+
+.flex-container {
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	margin: 50px 150px 150px 150px;
+	height: 502px;
+	flex-wrap: wrap;
+	background-color: white;
+	overflow: hidden;
+}
+
+.tredelt-boks {
+	border: #ccc solid 1px;
+	margin: 0 20px;
+	flex: 1;
+	flex-wrap: wrap;
+	height: 500px;
+	/*border-top-left-radius: 16px;
+	border-top-right-radius: 16px; */
+	border-radius: 12px;
+	-webkit-box-shadow: -1px 1px 5px 3px rgba(0,0,0,0.25);
+	-moz-box-shadow: -1px 1px 5px 3px rgba(0,0,0,0.25);
+	box-shadow: -1px 1px 5px 3px rgba(0,0,0,0.05);
+	overflow: hidden;
+
+}
+
+.tredelt-boks p {
+	margin: 15px;
+	text-align: left;
+}
+
+.tredelt-boks h3 {
+	margin: 15px;
+	font-weight: bold;
+	color: #000930;
+	
+}
+
+.tredelt-boks img {
+	width: 100%;
+	height: 350px;
+	margin-bottom: 0px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	transition: transform .5s ease;
+	object-fit: cover;	
+}
+
+.tredelt-boks:hover img {
+	transform: scale(1.1);
+}
+
+.tredelt-boks-bund {
+	background-color: white;
+	overflow: hidden;
+	position: relative;
+}
+
+.afsnit-indledning {
+	margin-right: 180px;
+	margin-left: 180px;
+	margin-top: 100px;
+	position: relative;
+	width: 100%; 
+}
+
+
+.afsnit-underrubrik {
+	margin-bottom: 50px;
+	color: lightskyblue;
+}
+
+
+/* Artikel sektion */
+#artikel-container {
+	height: 302px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	
+	
+}
+ 
+.firedelt-boks {
+	border: #ccc solid 1px;
+	margin: 0 10px;
+	flex: 1;
+	flex-wrap: wrap;
+	height: 300px;
+	/*border-top-left-radius: 16px;
+	border-top-right-radius: 16px; */
+	border-radius: 12px;
+	-webkit-box-shadow: -1px 1px 5px 3px rgba(0,0,0,0.25);
+	-moz-box-shadow: -1px 1px 5px 3px rgba(0,0,0,0.25);
+	box-shadow: -1px 1px 5px 3px rgba(0,0,0,0.05);
+	overflow: hidden;
+}
+
+.artikel-billede img {
+	width: 100%;
+	max-height: 170px;
+	margin-bottom: 0px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	transition: transform .5s ease;	
+	object-fit: cover;
+}
+
+.artikel-bund {
+	background-color: white;
+}
+
+.artikel-bund h3 {
+	text-align: left;
+	margin: 15px;
+	font-weight: bold;
+	color: #000930;
+}
+
+.artikel-bund p {
+	margin: 15px;
+
+}
+
+
+/* MOBILE DEVICES */
+@media only screen and (max-width: 600px){
+	body {
+	background-color: black !important;
+	}
+}

@@ -1,0 +1,46 @@
+{
+  "rejse": {
+     "rejse_id": "1",
+     "destination": {
+        "@id": "val-thorens",
+        "text": "Val Thorens"
+     },
+     "afrejse": "2020-05-12",
+     "skidage": "8",
+     "transport": "Fly",
+     "transport_fra": "CPH",
+     "indkvartering": {
+        "@id": "hs100",
+        "@pension": "1/2",
+        "@kun_transport": "nej",
+        "@url": "http://www.hjemmeside.dk/frankrig/val-thorens/hotel-skisport/",
+        "@video": "https://www.youtube.com/watch?v=9WLOJUPgp1I",
+        "#text": "Hotel Skisport.dk"
+     },
+     "beskrivelse": "Vores eget hotel i Val Thorens med all-inclusive 300 m fra liften. Alle værelser er med eget badeværelse og balkon.",
+     "billeder": [
+        "http://www.hjemmeside.dk/frankrig/val-thorens/hotel-skisport/billede.jpg",
+        "http://www.hjemmeside.dk/frankrig/val-thorens/hotel-skisport/billede2.jpg",
+        "http://www.hjemmeside.dk/frankrig/val-thorens/hotel-skisport/billede3.jpg"
+     ],
+     "koordinater": {
+        "@lat": "",
+        "@lon": ""
+     },
+     "vaerelse": {
+        "@id": "dblv2",
+        "@antal_sovepladser": "2",
+        "#text": "Dobbeltværelse"
+     },
+     "pris": {
+        "@pris_for_personer": "1",
+        "@pris_ved_personer": "2",
+        "@normal_pris": "",
+        "#text": "2495"
+     },
+     "liftkort": "6",
+     "liftkort_note": [],
+     "url": "http://www.hjemmeside.dk/frankrig/val-thorens/hotel-skisport/?book",
+     "sidst_opdateret": "åååå-mm-dd tt:mm:ss"
+  }
+}

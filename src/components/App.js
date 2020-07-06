@@ -1,13 +1,13 @@
 import React from 'react';
 import '../styles/App.css';
 import Rejser from './Rejser'
-import Test from './Test'
+import TitleCard from './TitleCard'
 
 
 function App() {
   return (
     <div className="App">
-        <Test />
+        <TitleCard />
     </div>
   );
 }

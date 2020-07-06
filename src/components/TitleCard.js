@@ -8,7 +8,7 @@ class TitleCard extends React.Component {
         <div class="container" id="top">
           <div class="menu">
               <ul>
-                  <li><img src="../styles/images/logo.jpeg" alt="logo" class="logo"/></li>
+                  <li><img src="src/styles/images/logo.jpeg" alt="logo" class="logo"/></li>
                   <li><a>Skiferier</a></li>
                   <li><a>Destinationer</a></li>
                   <li><a>Inspiration</a></li>

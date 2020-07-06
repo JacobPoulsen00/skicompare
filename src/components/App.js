@@ -1,15 +1,14 @@
 import React from 'react';
 import '../styles/App.css';
-import Rejser from './Rejser'
+import Navbar from './Navbar'
 import TitleCard from './TitleCard'
-import Searchbar from './Searchbar'
 
 
 function App() {
   return (
     <div className="App">
+        <Navbar />
         <TitleCard />
-        <Searchbar />
     </div>
   );
 }

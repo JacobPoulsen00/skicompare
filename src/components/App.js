@@ -12,8 +12,8 @@ function App() {
       <div>
           <Navbar />
           <TitleCard />
+          <Footer />
       </div>
-      <Footer />
     </Router>
   );
 }

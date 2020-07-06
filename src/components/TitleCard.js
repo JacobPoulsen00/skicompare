@@ -1,11 +1,9 @@
 import React from 'react';
 import '../styles/styles.css';
-import { Router } from 'express';
 
 class TitleCard extends React.Component {
 	render() {
 		return (
-      <Router>        
         <div class="container">
           <div class="titlecard">
             <div class="title-card-filter">
@@ -14,7 +12,6 @@ class TitleCard extends React.Component {
             <div class="SB-box"></div>
           </div>
         </div>
-      </Router>
         );
     }
 } 

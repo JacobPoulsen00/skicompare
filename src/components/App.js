@@ -9,11 +9,11 @@ import { HashRouter as Router, Route } from 'react-router-dom'; //Use Route for 
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div>
           <Navbar />
           <TitleCard />
-          <Footer />
       </div>
+      <Footer />
     </Router>
   );
 }

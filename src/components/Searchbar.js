@@ -10,4 +10,4 @@ class Searchbar extends React.Component {
         );
     }
 } 
-export default TitleCard;
+export default Searchbar;
